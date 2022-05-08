@@ -5,6 +5,6 @@
         <title>Demo</title>
     </head>
     <body>
-        Hello from Spring Boot :)
+        Hello from Spring Boot inside docker container :)
     </body>
 </html>
