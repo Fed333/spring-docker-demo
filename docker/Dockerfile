@@ -10,6 +10,8 @@ RUN apk add openjdk8 \
 
 WORKDIR ./spring-docker-demo
 
-CMD ["/spring-docker-demo/docker/startup.sh"]
+COPY docker/startup.sh startup.sh
+
+CMD ["/spring-docker-demo/startup.sh"]
 
 EXPOSE 8088
